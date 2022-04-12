@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "start-page",
+    "description": "",
+    "version": "1.0",
+
+    "permissions":["identity","identity.email" ,"history" ],
+
+    "chrome_url_overrides":
+    {
+    "newtab":"index.html" 
+    }
+
+}
